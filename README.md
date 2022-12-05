@@ -94,7 +94,7 @@ Create wordpress database
 ```bash
   CREATE DATABASE wordpress_db_name
   CREATE USER 'wordpressuser'@'iphost' IDENTIFIED BY 'password';
-  GRANT ALL ON CREATE DATABASE wordpress_db_name.* TO 'wordpressuser'@'iphost';
+  GRANT ALL ON wordpress_db_name.* TO 'wordpressuser'@'iphost';
 ```
 
 Create social media database
@@ -102,5 +102,5 @@ Create social media database
 ```bash
   CREATE DATABASE socmed_db_name
   CREATE USER 'socmedadmin'@'iphost' IDENTIFIED BY 'password';
-  GRANT ALL ON CREATE DATABASE socmed_db_name.* TO 'socmedadmin'@'iphost';
+  GRANT ALL ON socmed_db_name.* TO 'socmedadmin'@'iphost';
 ```
