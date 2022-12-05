@@ -14,6 +14,9 @@
 ![Topology](https://github.com/jkpraja/devops/blob/main/Topology%20Infra%20on%20Prem.png?raw=true)
 ## You'll need
 - 2 Virtual Machines
+- Wordpress latest source code
+- Landing page source code
+- Social media source code
 ## How To Get Started
 #Setting Up The Virtual Machines
 - VM1 as Apache Server
