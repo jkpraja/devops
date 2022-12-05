@@ -61,14 +61,6 @@ To deploy the social media app
 
 ```bash
   git clone [social-media-url]
-  
-  ln -sf /home/user/[social-media-folder] /var/www/sosmed
-```
-
-To deploy the social media app
-
-```bash
-  git clone [social-media-url]
 
   ln -sf /home/user/[social-media-folder] /var/www/sosmed
   vim /var/www/sosmed/config.php
